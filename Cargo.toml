@@ -1,0 +1,15 @@
+[package]
+name = "arm_coresight_decoder"
+version = "0.1.0"
+authors = ["Petteri Aimonen <jpa@git.mail.kapsi.fi>"]
+
+[dependencies]
+byteorder = "1"
+
+[lib]
+name = "arm_coresight_decoder"
+path = "src/lib.rs"
+
+[[bin]]
+name = "arm_coresight_decoder"
+path = "src/bin.rs"
